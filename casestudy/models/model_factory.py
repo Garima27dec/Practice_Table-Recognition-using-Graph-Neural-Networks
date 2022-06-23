@@ -1,11 +1,11 @@
-from models.model_interface import ModelInterface
-from libs.configuration_manager import ConfigurationManager as gconfig
-from models.basic_model import BasicModel
-from models.fast_conv_segment import FastConvSegment
-from models.dgcnn_segment import DgcnnSegment
-from models.garnet_segment import GarNetSegment
-from models.fcnn_segment import FcnnSegment
-from models.gravnet_segment import GravnetSegment
+from model_interface import ModelInterface
+from configuration_manager import ConfigurationManager as gconfig
+from basic_model import BasicModel
+from fast_conv_segment import FastConvSegment
+from dgcnn_segment import DgcnnSegment
+from garnet_segment import GarNetSegment
+from fcnn_segment import FcnnSegment
+from gravnet_segment import GravnetSegment
 
 class ModelFactory:
     def get_model(self):

@@ -1,7 +1,7 @@
-from models.network_segment_interface import NetworkSegmentInterface
+from network_segment_interface import NetworkSegmentInterface
 import tensorflow as tf
-from caloGraphNN import *
-from ops.ties import *
+#from caloGraphNN import *
+from ties import *
 
 class FcnnSegment(NetworkSegmentInterface):
     def build_network_segment(self, feat):

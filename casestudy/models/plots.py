@@ -1,4 +1,4 @@
-from libs.configuration_manager import ConfigurationManager as gconfig
+from configuration_manager import ConfigurationManager as gconfig
 import matplotlib.pyplot as plt
 import os
 import numpy as np

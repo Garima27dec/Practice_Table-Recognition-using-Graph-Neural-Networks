@@ -1,5 +1,5 @@
 import tensorflow as tf
-from models.model_interface import ModelInterface
+from model_interface import ModelInterface
 
 
 

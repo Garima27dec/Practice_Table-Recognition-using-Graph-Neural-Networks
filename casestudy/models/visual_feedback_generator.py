@@ -1,5 +1,5 @@
 from queue import Queue
-from  threading import Thread
+from threading import Thread
 from os import path
 import gzip
 import pickle

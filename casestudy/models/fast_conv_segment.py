@@ -1,4 +1,4 @@
-from models.network_segment_interface import NetworkSegmentInterface
+from network_segment_interface import NetworkSegmentInterface
 import tensorflow as tf
 
 

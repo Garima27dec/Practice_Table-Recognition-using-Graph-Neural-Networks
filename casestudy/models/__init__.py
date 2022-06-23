@@ -14,4 +14,6 @@ from .configuration_manager import ConfigurationManager
 from .inference_output_streamer import InferenceOutputStreamer
 from .visual_feedback_generator import VisualFeedbackGenerator
 from .image_words_reader import ImageWordsReader
+from .iterator_interface import Iterator
+from .table_adjacency_parsing_iterator import import table_adjacency_parsing_iterator
 
